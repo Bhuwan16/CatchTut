@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "204511741060",
+    "project_id": "catchtut-12159",
+    "storage_bucket": "catchtut-12159.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204511741060:android:f883cfc384afb779f66ed1",
+        "android_client_info": {
+          "package_name": "com.example.catchtut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204511741060-an2acsi3ubrv71uafbu12bbgts4pn9j7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.catchtut",
+            "certificate_hash": "f778399f3b82db7c74d78ab20b866283079f1768"
+          }
+        },
+        {
+          "client_id": "204511741060-52dm3dpdcqusrq4rq8qtictjfr7nh2h8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQXXBh-sWTS1tEzFI8xXPGqXKH08hqN-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204511741060-52dm3dpdcqusrq4rq8qtictjfr7nh2h8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

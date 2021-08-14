@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherHome">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_marginTop="70dp"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="@color/orange"/>
+
+                <FrameLayout
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="190dp"
+                    android:layout_marginLeft="120dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/camera_image"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+
+                        android:src="@color/orange"
+                        app:civ_border_color="@color/orange"
+                        app:civ_border_width="1dp" />
+                    <ImageView
+                        android:id="@+id/btnCamera"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_baseline_camera_alt_24"/>
+                </FrameLayout>
+
+
+            </FrameLayout>
+
+            <ProgressBar
+                android:id="@+id/progressProfile"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:visibility="invisible"
+                android:outlineAmbientShadowColor="@color/orange"
+                android:outlineSpotShadowColor="@color/orange"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="30dp"
+                    android:text="Name"/>
+
+                <TextView
+                    android:id="@+id/tvProfileName"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/btnNameEdit"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_edit_24"/>
+
+
+        </LinearLayout>
+
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/light_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="30dp"
+                    android:text="Classes"/>
+
+                <TextView
+                    android:id="@+id/tvProfileClasses"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/btnClassEdit"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_edit_24"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/light_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="30dp"
+                    android:text="Subjects"/>
+
+                <TextView
+                    android:id="@+id/tvProfileSubjects"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/btnSubjectEdit"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_edit_24"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/light_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="30dp"
+                    android:text="Mode"/>
+
+                <TextView
+                    android:id="@+id/tvProfileMode"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/btnModeEdit"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_edit_24"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/light_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="30dp"
+                    android:text="Phone"/>
+
+                <TextView
+                    android:id="@+id/tvProfilePhone"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/btnPhoneEdit"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_edit_24"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/light_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="30dp"
+                    android:text="Address"/>
+
+                <TextView
+                    android:id="@+id/tvProfileAddress"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/btnAddressEdit"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_edit_24"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/etNameT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="First Name"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/etSurnameT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Last Name"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/etPhoneT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Phone"
+            android:inputType="phone" />
+
+
+        <EditText
+            android:id="@+id/etStateT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="State" />
+
+        <EditText
+            android:id="@+id/etCityT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="City" />
+
+        <EditText
+            android:id="@+id/etAreaT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Area (Sector/Street)" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textSize="20sp"
+            android:text="Teaching Mode"
+            android:layout_marginTop="20dp"/>
+
+        <RadioGroup
+            android:id="@+id/rdGroupMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioOffline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Offline"
+                android:checked="true"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radioOnline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Online"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radioBoth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Both"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textSize="20sp"
+            android:text="Select Classes"
+            android:layout_marginTop="20dp"/>
+
+        <HorizontalScrollView
+            android:layout_marginHorizontal="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/cbClass1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:textSize="20sp"
+                    android:text="I"/>
+                <CheckBox
+                    android:id="@+id/cbClass2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:textSize="20sp"
+                    android:text="II"/>
+                <CheckBox
+                    android:id="@+id/cbClass3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="III"/>
+                <CheckBox
+                    android:id="@+id/cbClass4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="IV"/>
+                <CheckBox
+                    android:id="@+id/cbClass5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="V"/>
+                <CheckBox
+                    android:id="@+id/cbClass6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="VI"/>
+                <CheckBox
+                    android:id="@+id/cbClass7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="VII"/>
+                <CheckBox
+                    android:id="@+id/cbClass8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:textSize="20sp"
+                    android:text="VIII"/>
+                <CheckBox
+                    android:id="@+id/cbClass9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="IX"/>
+                <CheckBox
+                    android:id="@+id/cbClass10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="X"/>
+                <CheckBox
+                    android:id="@+id/cbClass11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="XI"/>
+                <CheckBox
+                    android:id="@+id/cbClass12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="XII"/>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textSize="20sp"
+            android:text="Select Subjects"
+            android:layout_marginTop="20dp"/>
+
+        <CheckBox
+            android:id="@+id/checkAllSubjects"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="All Subjects(for Class I-V)"/>
+        <CheckBox
+            android:id="@+id/checkEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="English"/>
+        <CheckBox
+            android:id="@+id/checkScience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="Science(for Class I-VIII)"/>
+        <CheckBox
+            android:id="@+id/checkMathematics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="Mathematics"/>
+        <CheckBox
+            android:id="@+id/checkPhysics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="Physics"/>
+        <CheckBox
+            android:id="@+id/checkAccounts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="Accounts"/>
+        <CheckBox
+            android:id="@+id/checkChemistry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="Chemistry"/>
+        <CheckBox
+            android:id="@+id/checkBusiness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="Business"/>
+
+    </LinearLayout>
+
+</ScrollView>

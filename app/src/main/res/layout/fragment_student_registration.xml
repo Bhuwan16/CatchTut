@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/etNameS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="First Name"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/etSurnameS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Last Name"
+            android:inputType="textEmailAddress" />
+
+
+        <EditText
+            android:id="@+id/etStateS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="State" />
+
+        <EditText
+            android:id="@+id/etCityS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="City" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btnClass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Class"
+                android:layout_marginLeft="50dp"
+                android:backgroundTint="#FF8C00"/>
+
+            <TextView
+                android:id="@+id/tvSelectedClass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

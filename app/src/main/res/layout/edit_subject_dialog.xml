@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp"
+    android:paddingLeft="45dp"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/checkAllSubjects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="All Subjects(for Class I-V)"/>
+    <CheckBox
+        android:id="@+id/checkEnglish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="English"/>
+    <CheckBox
+        android:id="@+id/checkScience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Science(for Class I-VIII)"/>
+    <CheckBox
+        android:id="@+id/checkMathematics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Mathematics"/>
+    <CheckBox
+        android:id="@+id/checkPhysics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Physics"/>
+    <CheckBox
+        android:id="@+id/checkChemistry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Chemistry"/>
+    <CheckBox
+        android:id="@+id/checkAccounts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Accounts"/>
+    <CheckBox
+        android:id="@+id/checkBusiness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Business"/>
+
+</LinearLayout>
